@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Ola! Eu sou</span>
-          <span>Manassés Pitzer</span>
+          <span>Emerson</span>
           <span>
-           Tenho mais de 10 anos de prática como professor de matemática e fisica
+           Tenho mais de 10 anos de prática como professor de matemática
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -62,7 +62,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Rei " text2="da fisica" />
+          <FloatinDiv img={crown} text1="Rei " text2="da Matemática" />
         </motion.div>
 
         {/* animation */}
